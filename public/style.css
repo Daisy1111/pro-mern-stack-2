@@ -9,7 +9,7 @@ nav ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: darkred;
     overflow: hidden;
 }
 
@@ -35,52 +35,24 @@ nav ul li a:hover{
     height: 100%;
 }
 
-#first{
-    float: left;
-    width: 33.3333%;
-    height: 100%;
-    background-color: darkgray;
-}
-
-#firsta{
-    float: top;
-    height: 50%;
-    width: 100%;
-    background-color: honeydew;
-}
-
-#firstb{
-    float: top;
-    height: 50%;
-    width: 100%;
-    background-color: lavender;
-}
-
-#second{
-    float: left;
-    width: 33.3333%;
-    height: 100%;
-    background-color: gainsboro;
-}
-
-#third{
-    float: left;
-    width: 33.3334%;
-    height: 100%;
-    background-color: darkgray;
-}
-
-#form{
+#visualForm{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
     grid-template-rows: 50px 50px 50px 50px 50px;
 }
 
-.item {
+.fontsize {
+  font-size: 1em;
+}
+
+
+.seat {
+    width: 50px;
+    height: 50px;
     font-size: 1.5em;
     text-align: center;
     border: 2px solid #e5e4e9;
-    background-color: #b3d4fc;
+    background-color: gray;
 }
 
 .active{
@@ -88,17 +60,10 @@ nav ul li a:hover{
     color: #ffffff!important;
 }
 
-#selectedSeat{
-    float: right;
-    width: 50%;
-    height: 100%;
-    background-color: darkgray;
-}
-
 .mainButton{
-    font-size: 1.5em;
-    width: 300px;
-    height: 70px;
-    background-color: lightgray;
+    font-size: 1em;
+    width: 120px;
+    height: 50px;
+    background-color: indianred;
 }
 
