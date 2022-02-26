@@ -124,7 +124,7 @@ class AddTraveller extends React.Component {
     return (
       this.props.state.showAdd?(
         <form name="addTraveller" onSubmit={this.handleSubmit}>
-          <p className= "fontsize">Seat Number: <input type="text" name="seatNumber" placeholder="seat number" required min="1" max="25"/></p>
+          <p className= "fontsize">Seat Number: <input type="number" name="seatNumber" placeholder="seat number" required min="1" max="25"/></p>
           <h4>Tips: seat will be randomly choose</h4>
           <p className= "fontsize">Name: <input type="text" name="personName" placeholder = "person name" required/></p>
           <p className= "fontsize">Phone Number: <input type="text" name="phoneNumber" placeholder = "phone number" required/></p>
